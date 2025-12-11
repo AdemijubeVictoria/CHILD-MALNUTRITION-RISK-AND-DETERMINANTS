@@ -1,4 +1,4 @@
-# CHILD-MALNUTRITION-RISK-AND-DETERMINANTSCHILD MALNUTRITION RISK AND DETERMINANTS
+<img width="1464" height="968" alt="image" src="https://github.com/user-attachments/assets/edfad062-a687-4010-aab0-be5f2f26f30a" /># CHILD-MALNUTRITION-RISK-AND-DETERMINANTSCHILD MALNUTRITION RISK AND DETERMINANTS
 
 
 
@@ -27,6 +27,7 @@
 
 
 --- 
+
 ## Methodology
 ### Data Cleaning
 - Original dataset structure: 235957 rows  and 21 columns
@@ -52,63 +53,67 @@ Three key anthropometric indicators are used to assess the nutritional status of
 | Height-for-Age	| Short for age	| Stunting (long-term malnutrition) |
 | Weight-for-Height	| Too thin for height	| Wasting (short-term malnutrition) |
 
+| Z-score | value	Category	| Meaning |
+| -------- | ------------- | ------- |
+| Z >2	| Overweight |	Child is above expected growth |
+| 2≤ Z ≥ –2 |	Normal	| Child is within healthy growth range |
+| –3 ≤ Z < –2	| Moderately malnourished	| Child is below expected growth |
+| Z < –3	| Severely malnourished	| Child is far below healthy range; high risk |
 
-## Datasets 
--  **City Hospital Dataset.xlsx** — patient_id, age, gender, admission date, department
 
---- 
 
-## Dashboard Features
-- Key KPIs: total patients, total doctors, doctors to patient ratio, average admission duration, total billing amount
-- Visuals: Patient Distribution by Age Group, Monthly Hospital Admission Trend, Hospital by Patient Volume, Top 10 Performing Doctors by Patient Load
-- Interactivity: slicers for Gender, Age group, Test result
  
 --- 
 
+## Key KPIs
+- Total children: 235915
+- Average Weight-for-Age: -1.30
+- Average Height-for-Age: -1.30
+- Average Weight-for-Height: -0.87
+- High malnutrition risk %: 26.7%
+- Moderate malnutrition risk %: 33.3%
+- Low malnutrition risk %: 40.0%
+
+---
+
 ## Key Findings 
-- The population is more of elderly (21,148).
-- The admission types are almost evenly distributed.
-- Monthly admissions are consistent, showing no extreme spikes.
-- Medicare Insurance has the highest enrolment, with 50% of the patients (27,750).
-- Houston Methodist Hospital is handling a disproportionately high patient volume. 
-- Some doctors are handling significantly more patients than others.
-- Hypertension and Diabetes are the leading conditions (13,875 each).
-- There is not much difference between the number of drugs used, however, Penicillin is the least prescribed medication.
+- Majority of children have parents with primary and secondary education, only a few have tertiary education (about 16%).
+- Just a few (approx. 16%) have high dietary diversity (eat more than 6 types of meals).
+- Most of the children (around 71K) are under 1 year.
+- More than 30% of children have no access to food and healthcare.
+- Majority of children have parents with primary and secondary education, only a few have tertiary education (about 16%).
+- Just a few (approx. 16%) have high dietary diversity (eat more than 6 types of meals).
+- Most of the children (around 71K) are under 1 year.
+- More than 30% of children have no access to food and healthcare.
+- Poor sanitation, poor market access, lack of clean water, lack of access to care and poor food availability shows high percentage of high-risk children
+- However, high-risk increases when there is seasonal variations, as this can affect food availability and disease patterns
+
 
 --- 
 
 ## Recommendations 
-- Redistribute doctor and hospital workload.
-- Strengthen chronic disease management pathways such as hypertension and diabetes.
-- Adopt a hospital-wide digital health system.
-- More data should be collected on insurance and amount reimbursed.
-- Equipment used for diabetes and obesity investigations should be inspection. 
+- Improve dietary diversity through nutrition programs.
+- Educate parents on healthy nutrition.
+- Enhance food availability and market access.
+- Improve Water, Sanitation and Hygiene (WASH) infrastructure.
+- Strengthen access to healthcare services.
+- Implement seasonal preparedness strategies.
 
---- 
 
-## Tools & Techniques 
-- Microsoft Excel (Pivot Tables, Pivot Charts, Slicers) 
-- Data cleaning and transformation in Excel
-- Dashboard layout and visualization best practices   
-- Basic descriptive analytics and KPI design 
 
---- 
+---
 
-## Project Files (included) 
-- `City  General Hospital Analytics Dashboard.xlsx` — interactive dashboard file  
-- `City Hospital Dataset .xlsx` — raw dataset 
-- `CITY HOSPITAL OPERATIONAL PERFORMANCE ANALYSIS.pdf` — presentation slides    
-- `README.md` — this documentation 
+## Conclusion
+- Malnutrition remains a critical public health challenge, particularly among children under five in low-resource settings. 
+- The analysis shows that malnutrition risk is influenced by poor education, poor dietary diversity, and limited access to healthcare, clean water, and sanitation facilities.
+- Z-score indicators consistently show poorer outcomes among children from households with constrained resources and reduced food availability.
+- To address these gaps, strengthening community-based nutrition education help caregivers make informed decisions.
+- Improving access to clean water, sanitation facilities, and primary healthcare services is essential to reducing disease burden and supporting growth.
+- Finally, interventions should account for seasonal food shortages by implementing year-round food support systems, improved market access, and nutrition-sensitive agricultural programs.
 
 
 --- 
-## How to Run / View 
-1. Open `City  General Hospital Analytics Dashboard.xlsx` in Excel  
-2. Enable content (if prompted) to allow Pivot Tables and slicers to work   
-3. Use slicers to filter by Gender, Age group Test result.   
-4. Refer to `CITY HOSPITAL OPERATIONAL PERFORMANCE ANALYSIS.pdf` for a summary of insights and recommended actions
 
- --- 
 
 ## Contact 
 Ademijube Victoria Olamide
