@@ -1,4 +1,4 @@
-<img width="2948" height="123" alt="image" src="https://github.com/user-attachments/assets/4b0e816e-ca29-4255-b821-517c6ca91efe" /><img width="387" height="291" alt="image" src="https://github.com/user-attachments/assets/b05e4964-9e3b-49b9-a4b1-ffbf22aeebed" /><img width="4682" height="408" alt="image" src="https://github.com/user-attachments/assets/3d84ed6f-ac9b-4443-9113-1d15563a77ae" /># CHILD-MALNUTRITION-RISK-AND-DETERMINANTSCHILD MALNUTRITION RISK AND DETERMINANTS
+# CHILD-MALNUTRITION-RISK-AND-DETERMINANTSCHILD MALNUTRITION RISK AND DETERMINANTS
 
 
 
@@ -28,7 +28,7 @@
 
 --- 
 ## Methodology
-# Data Cleaning
+### Data Cleaning
 - Original dataset structure: 235957 rows  and 21 columns
 - 42 duplicates  rows (Deleted)
 - Missing values (frequency of Meals column)
