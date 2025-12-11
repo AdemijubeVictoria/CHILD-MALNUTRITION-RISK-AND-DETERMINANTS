@@ -47,6 +47,7 @@ Three key anthropometric indicators are used to assess the nutritional status of
 
 
 | Measurement |	What it Detects |	Type of Malnutrition |
+| -------------- | ------------- | ------------------- |
 | Weight-for-Age |	Light for age	| Underweight (general malnutrition) |
 | Height-for-Age	| Short for age	| Stunting (long-term malnutrition) |
 | Weight-for-Height	| Too thin for height	| Wasting (short-term malnutrition) |
