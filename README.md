@@ -81,10 +81,10 @@ Three key anthropometric indicators are used to assess the nutritional status of
 - Just a few (approx. 16%) have high dietary diversity (eat more than 6 types of meals).
 - Most of the children (around 71K) are under 1 year.
 - More than 30% of children have no access to food and healthcare.
-- Majority of children have parents with primary and secondary education, only a few have tertiary education (about 16%).
-- Just a few (approx. 16%) have high dietary diversity (eat more than 6 types of meals).
-- Most of the children (around 71K) are under 1 year.
-- More than 30% of children have no access to food and healthcare.
+- Children with low diversity have low z-scores of -1.7 for WFA and HFA. This is close to underweight and stunting.
+- As parent education decreases, malnutrition worsens. 
+- Poor parental education and dietary diversity correlate with high malnutrition risk.
+- The even bubble size in the map shows that the proportion of children with high-risk malnutrition in all location are similar (about 26%).
 - Poor sanitation, poor market access, lack of clean water, lack of access to care and poor food availability shows high percentage of high-risk children
 - However, high-risk increases when there is seasonal variations, as this can affect food availability and disease patterns
 
